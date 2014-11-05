@@ -39,6 +39,9 @@ mv ./matlab/svmtrain.mexmaci64 ./bin/svmtrain.mexmaci64
 mv ./matlab/svmpredict.mexmaci64 ./bin/svmpredict.mexmaci64
 cd ..
 
-
+# Additional Tools
+# ROC-Curve tool
+wget http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/roc/plotroc.m
+mv plotroc.m ./libsvm/tools/plotroc.m
 
 
